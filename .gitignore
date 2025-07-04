@@ -1,0 +1,24 @@
+# === Java related ===
+*.class
+*.log
+*.jar
+*.war
+*.ear
+
+# === Eclipse specific ===
+.project
+.classpath
+.settings/
+bin/
+target/
+
+# === IDEs ===
+.idea/
+*.iml
+
+# === OS/Editor files ===
+.DS_Store
+Thumbs.db
+
+# === Properties files with secrets ===
+src/properties/db.properties
